@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/utils/pointer"
 
-	"kubevirt.io/api/core"
+	"crazytaxii/kubevirt-api/core"
 )
 
 const SubresourceGroupName = "subresources.kubevirt.io"

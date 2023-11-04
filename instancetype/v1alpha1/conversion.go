@@ -20,8 +20,9 @@
 package v1alpha1
 
 import (
+	"crazytaxii/kubevirt-api/instancetype/v1beta1"
+
 	conversion "k8s.io/apimachinery/pkg/conversion"
-	"kubevirt.io/api/instancetype/v1beta1"
 )
 
 // Manually defined function to convert from pointer to value

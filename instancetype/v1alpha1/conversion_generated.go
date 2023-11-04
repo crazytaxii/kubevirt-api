@@ -27,8 +27,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	corev1 "kubevirt.io/api/core/v1"
-	v1beta1 "kubevirt.io/api/instancetype/v1beta1"
+	corev1 "crazytaxii/kubevirt-api/core/v1"
+	v1beta1 "crazytaxii/kubevirt-api/instancetype/v1beta1"
 )
 
 func init() {

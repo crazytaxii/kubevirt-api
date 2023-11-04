@@ -23,7 +23,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "kubevirt.io/api/core/v1"
+	v1 "crazytaxii/kubevirt-api/core/v1"
 )
 
 // VirtualMachineInstancetype resource contains quantitative and resource related VirtualMachine configuration

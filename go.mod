@@ -1,4 +1,4 @@
-module kubevirt.io/api
+module crazytaxii/kubevirt-api
 
 go 1.17
 

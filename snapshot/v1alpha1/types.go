@@ -26,7 +26,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	v1 "kubevirt.io/api/core/v1"
+	v1 "crazytaxii/kubevirt-api/core/v1"
 )
 
 const DefaultFailureDeadline = 5 * time.Minute

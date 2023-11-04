@@ -15,7 +15,7 @@ with [client-gen](https://github.com/kubernetes/community/blob/master/contributo
 The following command creates the client inside an example project called `testapi`:
 
 ```bash
-client-gen --input-base="kubevirt.io/api/" --input="core/v1" --output-package="testapi/client" --output-base="../" --clientset-name="versioned" --go-header-file boilerplate.go.txt
+client-gen --input-base="crazytaxii/kubevirt-api/" --input="core/v1" --output-package="testapi/client" --output-base="../" --clientset-name="versioned" --go-header-file boilerplate.go.txt
 ```
 
 `client-gen` always needs a `boilerplate.go.txt` file. If you don't want to
@@ -35,7 +35,7 @@ client.KubevirtV1().VirtualMachineInstances(v1.NamespaceAll).List(context.Backgr
 ```
 
 -----
-KubeVirt API is maintained at https://github.com/kubevirt/kubevirt/tree/main/staging/src/kubevirt.io/api.  
+KubeVirt API is maintained at https://github.com/kubevirt/kubevirt/tree/main/staging/src/kubevirt.io/api.
 The main branch of this repository is updated on every PR merge, release tags are pushed on every release of KubeVirt.
 
 ## License

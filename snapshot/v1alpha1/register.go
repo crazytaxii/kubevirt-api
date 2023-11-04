@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubevirt.io/api/snapshot"
+	"crazytaxii/kubevirt-api/snapshot"
 )
 
 // SchemeGroupVersion is group version used to register these objects

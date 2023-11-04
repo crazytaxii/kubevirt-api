@@ -23,7 +23,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	k6tv1 "kubevirt.io/api/core/v1"
+	k6tv1 "crazytaxii/kubevirt-api/core/v1"
 )
 
 // MigrationPolicy holds migration policy (i.e. configurations) to apply to a VM or group of VMs

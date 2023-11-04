@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"kubevirt.io/api/clone"
+	"crazytaxii/kubevirt-api/clone"
 )
 
 var (
